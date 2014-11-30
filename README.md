@@ -20,8 +20,8 @@ Libraries used
  ------------
 
  - Fork or clone this repository
- - 'npm install' to install dev tools (i.e. grunt, bower)
- - 'bower install' to install js libraries (i.e skulpt, phaser)
- - 'grunt dev' to start the development server
- - 'http://localhost:8081' on your browser and you should see the example project running
+ - `npm install` to install dev tools (i.e. grunt, bower)
+ - `bower install` to install js libraries (i.e skulpt, phaser)
+ - `grunt dev` to start the development server
+ - `http://localhost:8081` on your browser and you should see the example project running
 
