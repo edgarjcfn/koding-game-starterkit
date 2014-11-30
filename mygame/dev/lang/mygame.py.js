@@ -23,7 +23,7 @@ var $builtinmodule = function(name)
          });
 
          $loc.moveForward = new Sk.builtin.func(function(self,x) {
-            var moveCmd = new MoveCommand({'tiles':x.v}, self.character, Sk.animator);
+            var moveCmd = new MoveCommand({'tiles':x.v, 'character': self.character}, Sk.animator);
             Sk.commandChain.append(moveCmd, Sk.currLineNo);
          });
          $loc.turnLeft = new Sk.builtin.func(function(self) {

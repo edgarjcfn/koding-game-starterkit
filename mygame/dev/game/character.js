@@ -1,10 +1,10 @@
 'use strict'; 
 
 var Direction = {
-	N: 'N',
-	S: 'S',
-	E: 'E',
-	W: 'W',
+    N: 'N',
+    S: 'S',
+    E: 'E',
+    W: 'W',
 }
 
 var Character = function() {
@@ -14,13 +14,13 @@ var Character = function() {
 };
 
 Character.prototype.moveTo = function (x, y) {
-	this.x = x;
-	this.y = y;
+    this.x = x;
+    this.y = y;
 };
 
 Character.prototype.moveBy = function (x, y) {
-	this.x += x;
-	this.y += y;
+    this.x += x;
+    this.y += y;
 };
 
 Character.prototype.get_position = function() {
@@ -29,9 +29,9 @@ Character.prototype.get_position = function() {
 };
 
 Character.prototype.get_direction = function() {
-	return this.direction;
+    return this.direction;
 }
 
 Character.prototype.set_direction = function(dir) {
-	this.direction = dir;
+    this.direction = dir;
 };
