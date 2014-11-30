@@ -37,18 +37,7 @@
 
   <button type="button" onclick="runPython()">Run</button> 
   
-<div id="editor">import mygame
-
-char = mygame.Character();
-char.turnRight();
-char.moveForward(1);
-char.turnRight();
-char.moveForward(1);
-char.turnRight();
-char.moveForward(1);
-char.turnRight();
-char.moveForward(1);
-
+<div id="editor">
   </div><br /> 
 
   <div id="gameCanvas" style="float:right; width:60%; height:600px">
@@ -64,6 +53,13 @@ char.moveForward(1);
     editor.getSession().setMode("ace/mode/python");
     editor.setFontSize('16pt');
     editor.setHighlightActiveLine(true);
+
+    $.ajax({
+      url: 'mygame/dev/game/assets/level01.py',
+      success: function(data) {
+        editor.setValue(data);
+      }
+    });
 
   });
   </script>
