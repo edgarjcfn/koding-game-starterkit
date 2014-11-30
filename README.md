@@ -16,6 +16,14 @@ Libraries used
 
  - [Phaser](http://phaser.io/) - Open-source HTML5 game framework. [License](https://github.com/photonstorm/phaser/blob/master/license.txt)
 
+ Assets used
+ -----------
+ Example assets are from [OpenGameArt.org](http://http://opengameart.org/)
+
+ - [Tiling Background](http://opengameart.org/content/tiling-background-pack-sky) by [@thomaswp](http://opengameart.org/users/thomaswp)
+
+ - [Fighter planes](http://opengameart.org/content/fighter-planes-ww2-theme) by Nick
+
  Instructions
  ------------
 
